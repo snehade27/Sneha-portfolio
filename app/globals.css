@@ -651,25 +651,27 @@ nav, footer, .bottom-bar {
 
 .contact-btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 12px 28px;
+  margin-top: 24px;
+  padding: 12px 30px;
   border-radius: 999px;
 
-  background: linear-gradient(
-    135deg,
-    #3b2f6b,
-    #4a2f7f
-  ); /* dark purple */
+  /* DARK PURPLE BUTTON */
+  background: linear-gradient(135deg, #4a2f7f, #3b235f);
 
+  /* IMPORTANT: TEXT COLOR */
   color: #ffffff;
-  font-size: 0.9rem;
-  font-weight: 500;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
   text-decoration: none;
 
+  box-shadow: 0 8px 24px rgba(74, 47, 127, 0.45);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(74, 47, 127, 0.4);
+  box-shadow: 0 12px 32px rgba(74, 47, 127, 0.6);
+  color: #ffffff; /* keep text white on hover */
 }
