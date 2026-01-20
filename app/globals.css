@@ -654,15 +654,22 @@ nav, footer, .bottom-bar {
   margin-top: 20px;
   padding: 12px 28px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #7c83ff, #9b6cff);
-  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #3b2f6b,
+    #4a2f7f
+  ); /* dark purple */
+
+  color: #ffffff;
   font-size: 0.9rem;
   font-weight: 500;
   text-decoration: none;
+
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(124, 131, 255, 0.35);
+  box-shadow: 0 10px 30px rgba(74, 47, 127, 0.4);
 }
