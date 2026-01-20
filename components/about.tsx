@@ -24,6 +24,41 @@ export default function About() {
             experiences and building polished digital products from concept to
             implementation.
           </p>
+          {/* CONTACT INFO */}
+<div className="about-contact">
+  <p>
+    <strong>Email:</strong>{" "}
+    <a href="mailto:desneha2004@gmail.com">
+      desneha2004@gmail.com
+    </a>
+  </p>
+
+  <p>
+    <strong>Phone:</strong>{" "}
+    <a href="https://wa.me/917060984656" target="_blank" rel="noreferrer">
+      +91 7060984656
+    </a>
+  </p>
+
+  <p>
+    <strong>LinkedIn:</strong>{" "}
+    <a
+      href="https://www.linkedin.com/in/sneha-de-153600259"
+      target="_blank"
+      rel="noreferrer"
+    >
+      linkedin.com/in/sneha-de-153600259
+    </a>
+  </p>
+
+  <a
+    href="mailto:desneha2004@gmail.com"
+    className="contact-btn"
+  >
+    Contact Me
+  </a>
+</div>
+
         </div>
 
         {/* RIGHT */}

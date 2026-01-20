@@ -628,3 +628,41 @@ nav, footer, .bottom-bar {
   border-radius: 28px !important;
   margin-top: 0 !important;
 }
+.about-contact {
+  margin-top: 28px;
+}
+
+.about-contact p {
+  color: #cfd4e3;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.about-contact a {
+  color: #9b6cff;
+  text-decoration: none;
+}
+
+.about-contact a:hover {
+  text-decoration: underline;
+}
+
+/* CONTACT BUTTON */
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #7c83ff, #9b6cff);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(124, 131, 255, 0.35);
+}
